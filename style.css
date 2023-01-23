@@ -1,0 +1,42 @@
+header {
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(55, 48, 119);
+    text-align:center;
+}
+.leftbox {
+    margin: 5;
+    margin-top: 30px;
+    color:rgb(39, 39, 39);
+    font-size: large;
+    padding: 10px;
+    float: left;
+    width: 47%;
+    background-color: rgb(177, 174, 9);
+    text-align:center;
+}
+.rightbox {
+    margin: 5;
+    margin-top: 30px;
+    color:rgb(39, 39, 39);
+    font-size: large;
+    padding: 10px;
+    float: right;
+    width: 47%;
+    background-color: rgb(204, 103, 8);
+    text-align:center;
+}
+body {
+    margin: 00;
+    border: 5px outset orange;
+    background-color: burlywood;
+    text-align:center;
+    height: 200pt;
+}
+
+.userDiv {
+    margin: 20;
+    border: 5px outset orange;
+    background-color: rgb(107, 67, 15);
+    text-align:center;
+}

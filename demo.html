@@ -1,0 +1,61 @@
+<html>
+    <!--Only use HTML, and need help with certain HTML elements ()-->
+    <head>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <title>Cats and Dogs</title>
+        <header>
+            <h1>Dogs vs. Cats</h1>
+        </header>
+        <article class ="titlename">
+            <h2>Which Pet is the best for you?</h2>
+        </article>
+        <article class ="bodyfill">
+            <article class ="leftbox">
+                <h3>DOGS</h3>
+                <p>
+                    <img src= "doggo.png" alt="A golden retriever" width="200" height="200"> <br>
+                    Active lifestyle! <br>
+                    Ever so loyal! <br>
+                    Take a dive in the lake?
+                </p>
+            </article>
+            <article class ="rightbox">
+                <h3>CATS</h3>
+                <p>
+                    <!--<img src="/home/ryan3708/projects/courses/code-102/HTML-webpage/images/cat_pic.jpg" alt="A cat" width="200" height="200"> <br>-->
+                    Low maintenance! <br>
+                    Clean! <br>
+                    Your quiet roommate?
+
+                </p>
+            </article>
+        </article>
+
+        <article class ="userDiv">
+            <h1> Here's some more pictures of Your Favorite pet! </h1>
+            <p>
+                <script>
+                    var isHuman = 1;
+                    while (isHuman !== "y"){
+                        var isHuman = prompt("Are you Human? (type y if yes)")
+                    }
+                    
+                    var userChoice = prompt("Are you a Cats person or a Dog person? (Type c or d)");
+                    if (userChoice == "c"){
+                        document.write(" is a Cat Person!").style.fontsize = "large";
+
+                    } else if (userChoice == "d"){
+                        document.write(" is a Dog person!").style.fontsize = "large";
+                    } else {
+                        var userChoice = prompt("Are you a Cats person or a Dog person? (Type c or d)");
+                    }
+                </script>>
+            </p>
+
+
+        </div>
+    </body>
+
+</html>
