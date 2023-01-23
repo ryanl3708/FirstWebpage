@@ -84,6 +84,8 @@ nav li {
     border: 5px outset orange;
     background-color: rgb(190, 121, 30);
     text-align:center;
+    height: 100%;
+    width: 100%;
 }
 
 #catdog {
@@ -93,66 +95,36 @@ nav li {
     display: block;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* header {
-    margin: 0;
-    padding: 5px;
-    background-color: rgb(55, 48, 119);
-    text-align:center;
+#cat {
+    width: 50%;
+    height: 50%;
 }
-.leftbox {
-    margin: 5;
-    margin-top: 30px;
-    color:rgb(39, 39, 39);
+
+#dog {
+    width: 50%;
+    height: 50%;
+}
+
+.catsss {
+    width: 20%;
+    height: 20%;
     font-size: large;
-    padding: 10px;
-    float: left;
-    width: 47%;
-    background-color: rgb(177, 174, 9);
-    text-align:center;
 }
-.rightbox {
-    margin: 5;
-    margin-top: 30px;
-    color:rgb(39, 39, 39);
+.dogsss {
+    width: 20%;
+    height: 20%;
     font-size: large;
-    padding: 10px;
-    float: right;
-    width: 47%;
-    background-color: rgb(204, 103, 8);
-    text-align:center;
-}
-body {
-    margin: 00;
-    border: 5px outset orange;
-    background-color: burlywood;
-    text-align:center;
-    height: 200pt;
 }
 
-.userDiv {
-    margin: 20;
-    border: 5px outset orange;
-    background-color: rgb(107, 67, 15);
-    text-align:center;
-} */
+#dogtext {
+    font-size: xx-large;
+    color:rgb(86, 6, 101)
+}
+
+#cattext {
+    color: rgb(80, 4, 131);
+    font-size: xx-large;
+}
+
+
+
