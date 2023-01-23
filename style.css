@@ -1,4 +1,120 @@
-header {
+body{
+    background-color: burlywood;
+    color:black;
+    margin: 20pt;
+}
+
+header{
+    margin: 20;
+    border: 15px groove rgb(136, 94, 17);
+    background-color: rgb(192, 155, 155);
+}
+
+nav{
+    text-decoration: none;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+nav ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.titlename {
+    background-color: antiquewhite;
+    border: 5px dashed rgba(194, 12, 6, 0.658);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.leftbox {
+    margin: 5;
+    margin-top: 30px;
+    color:rgb(39, 39, 39);
+    font-size: large;
+    padding: 10px;
+    float: left;
+    width: 47%;
+    background-color: rgb(202, 201, 145);
+    text-align:center;
+    margin: 20;
+    border: 2px outset rgb(204, 0, 255);
+}
+
+.rightbox {
+    margin: 5;
+    margin-top: 30px;
+    color:rgb(39, 39, 39);
+    font-size: large;
+    padding: 10px;
+    float: right; 
+    Height: 100%;
+    width: 47%;
+    background-color: rgb(133, 192, 240);
+    text-align:center;
+    margin: 20;
+    border: 2px outset rgb(255, 19, 243);
+}
+
+.bodyfill{
+    background-color: blue;
+    margin: 00;
+    border: 5px outset orange;
+    background-color: rgb(131, 128, 124);
+    text-align:center;
+    height: auto;
+    width: 100%;
+    display:inline-block
+}
+
+.userDiv {
+    margin: 20;
+    border: 5px outset orange;
+    background-color: rgb(190, 121, 30);
+    text-align:center;
+}
+
+#catdog {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header {
     margin: 0;
     padding: 5px;
     background-color: rgb(55, 48, 119);
@@ -39,4 +155,4 @@ body {
     border: 5px outset orange;
     background-color: rgb(107, 67, 15);
     text-align:center;
-}
+} */
