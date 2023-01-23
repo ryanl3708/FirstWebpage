@@ -8,17 +8,41 @@
             body{
                 background-color: burlywood;
                 color:black;
+                margin: 20pt;
             }
+
             header{
                 margin: 20;
-                border: 5px outset rgb(136, 94, 17);
+                border: 15px groove rgb(136, 94, 17);
                 background-color: rgb(192, 155, 155);
             }
+
+            nav{
+                text-decoration: none;
+            }
+
+            nav li a {
+                color: white;
+                text-decoration: none;
+                font-size: large;
+            }
+
+            nav ul {
+                text-decoration: none;
+                list-style: none;
+            }
+
+            nav li {
+                display: inline-block;
+                margin-right: 100px;
+            }
+
             .titlename {
                 background-color: antiquewhite;
                 margin: 20;
-                border: 5px outset rgba(194, 12, 6, 0.658);
+                border: 5px dashed rgba(194, 12, 6, 0.658);
             }
+
             .leftbox {
                 margin: 5;
                 margin-top: 30px;
@@ -26,12 +50,12 @@
                 font-size: large;
                 padding: 10px;
                 float: left;
-                width: 47%;
                 background-color: rgb(202, 201, 145);
                 text-align:center;
                 margin: 20;
-                border: 5px outset orange;
+                border: 2px outset rgb(204, 0, 255);
             }
+
             .rightbox {
                 margin: 5;
                 margin-top: 30px;
@@ -39,11 +63,10 @@
                 font-size: large;
                 padding: 10px;
                 float: right;
-                width: 47%;
                 background-color: rgb(133, 192, 240);
                 text-align:center;
                 margin: 20;
-                border: 5px outset orange;
+                border: 2px outset rgb(255, 19, 243);
             }
 
             .bodyfill{
@@ -53,6 +76,7 @@
                 background-color: rgb(131, 128, 124);
                 text-align:center;
                 height: 250pt;
+                display:inline-block
             }
 
             .userDiv {
@@ -63,7 +87,8 @@
             }
 
             #catdog {
-                width: 50%
+                width: 50%;
+                float: left;
             }
 
         </style>
@@ -74,8 +99,9 @@
             <hr>
             <nav>
                 <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <li><a href="https://ryanl3708.github.io/reading-notes/">My Reading Notes</a></li>
+                    <li><a href=""></a>Link 2</li>
+                    <li><a href=""></a>Link 3</li>
                 </ul>
             </nav>
         </header>
@@ -121,10 +147,10 @@
                         
                         var userChoice = prompt("Are you a Cats person or a Dog person? (Type c or d)");
                         if (userChoice == "c"){
-                            document.write(" is a Cat Person!").style.fontsize = "large";
+                            document.write("Hello Cat Person!").style.fontsize = "large";
 
                         } else if (userChoice == "d"){
-                            document.write(" is a Dog person!").style.fontsize = "large";
+                            document.write("Hello Dog person!").style.fontsize = "large";
                         } else {
                             var userChoice = prompt("Are you a Cats person or a Dog person? (Type c or d)");
                         }
