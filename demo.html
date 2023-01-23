@@ -4,6 +4,7 @@
     <head>
         <title>Cats and Dogs</title>
         <link rel="stylesheet" href="style.css" />
+        <script src="app.js"></script>
         <style>
             body{
                 background-color: burlywood;
@@ -145,15 +146,29 @@
                             var isHuman = prompt("Are you Human? (type y if yes)")
                         }
                         
-                        var userChoice = prompt("Are you a Cats person or a Dog person? (Type c or d)");
+                        let numPet = "";
+                        let userChoice = prompt("Are you a Cats person or a Dog person? (Type c or d)");
                         if (userChoice == "c"){
+                            while (numPet != Number){
+                                numPet = prompt("how many Cats do you want? (0~5)");
+                            }
                             document.write("Hello Cat Person!").style.fontsize = "large";
-
+                            for(let i=0; i < numPet; i++){
+                                output += "<img class='cats' src='img/cat2.jpg'/>";;
+                            }
                         } else if (userChoice == "d"){
+                            while (numPet != Number){
+                                numPet = prompt("how many Cats do you want? (0~5)");
+                            }
                             document.write("Hello Dog person!").style.fontsize = "large";
+                            for(let i=0; i < numPet; i++){
+                                output += "<img class='dogs' src='img/dog2.jpg'/>";;
+                            }
                         } else {
-                            var userChoice = prompt("Are you a Cats person or a Dog person? (Type c or d)");
+                            userChoice = prompt("Are you a Cats person or a Dog person? (Type c or d)");
                         }
+
+                        // function to ask for how many cats or dogs and return owner of # and then use number later to say xth pet.
                     </script>>
                 </p>
             </section>
