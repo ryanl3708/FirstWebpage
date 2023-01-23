@@ -4,10 +4,74 @@
     <head>
         <title>Cats and Dogs</title>
         <link rel="stylesheet" href="style.css" />
+        <style>
+            body{
+                background-color: burlywood;
+                color:black;
+            }
+            header{
+                margin: 20;
+                border: 5px outset rgb(136, 94, 17);
+                background-color: rgb(192, 155, 155);
+            }
+            .titlename {
+                background-color: antiquewhite;
+                margin: 20;
+                border: 5px outset rgba(194, 12, 6, 0.658);
+            }
+            .leftbox {
+                margin: 5;
+                margin-top: 30px;
+                color:rgb(39, 39, 39);
+                font-size: large;
+                padding: 10px;
+                float: left;
+                width: 47%;
+                background-color: rgb(202, 201, 145);
+                text-align:center;
+                margin: 20;
+                border: 5px outset orange;
+            }
+            .rightbox {
+                margin: 5;
+                margin-top: 30px;
+                color:rgb(39, 39, 39);
+                font-size: large;
+                padding: 10px;
+                float: right;
+                width: 47%;
+                background-color: rgb(133, 192, 240);
+                text-align:center;
+                margin: 20;
+                border: 5px outset orange;
+            }
+
+            .bodyfill{
+                background-color: blue;
+                margin: 00;
+                border: 5px outset orange;
+                background-color: rgb(131, 128, 124);
+                text-align:center;
+                height: 250pt;
+            }
+
+            .userDiv {
+                margin: 20;
+                border: 5px outset orange;
+                background-color: rgb(190, 121, 30);
+                text-align:center;
+            }
+
+            #catdog {
+                width: 50%
+            }
+
+        </style>
     </head>
     <body>
         <header>
             <h1 style="text-align:center;">Dogs vs. Cats</h1>
+            <hr>
             <nav>
                 <ul>
                     <li><a href=""></a></li>
@@ -18,14 +82,16 @@
 
         <main>
             <article class ="titlename">
-                <h2 style="text-align:center;"">Which Pet is the best for you?</h2>
-                <img src=""/>
+                <h2 style="text-align:center;"">Dogs or Cats, which do you choose?</h2>
+                <img id="catdog" src="img/dogncat.jpg" alt="cat and dog!">
+                <p style="font-size:x-small">Image from Americanhumane.org</p>
                 <p> Cats or dogs, they're ... </p>
             </article>
             <section class ="bodyfill">
                 <section class ="leftbox">
                     <h2>DOGS</h2>
                     <img src= "img/doggo.png" alt="A golden retriever" width="200" height="200">
+                    <p style="font-size:x-small">Image from goodhousekeeping.com</p>
                     <ul>
                         <li>Active lifestyle!</li>
                         <li>Ever so loyal! </li>
@@ -34,7 +100,8 @@
                 </section>
                 <section class ="rightbox">
                     <h2>CATS</h2>
-                    <!--<img src="/home/ryan3708/projects/courses/code-102/HTML-webpage/images/cat_pic.jpg" alt="A cat" width="200" height="200"> <br>-->
+                    <img src="/home/ryan3708/projects/courses/code-102/HTML-webpage/images/cat_pic.jpg" alt="A cat" width="200" height="200">
+                    <p style="font-size:x-small">Image from goodhousekeeping.com</p>
                     <ul>  
                         <li>Low maintenance!</li>
                         <li>Clean! </li>
@@ -43,7 +110,7 @@
                 </section>
             </section>
 
-            <article class ="userDiv">
+            <section class ="userDiv">
                 <h1> Here's some more pictures of Your Favorite pet! </h1>
                 <p>
                     <script>
@@ -63,7 +130,7 @@
                         }
                     </script>>
                 </p>
-            </article>
+            </section>
         </main>
         <footer>
             <hr>
